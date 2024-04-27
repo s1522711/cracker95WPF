@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>trolla.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="troll %281%29.png" />
+    <None Remove="trolla.png" />
+    <None Remove="Trollface_non-free.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="trolla.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="trolla.png" />
+  </ItemGroup>
+
+</Project>
