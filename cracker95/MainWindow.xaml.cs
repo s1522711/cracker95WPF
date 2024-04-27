@@ -26,10 +26,10 @@ namespace cracker95
             // initialise needed vars
             Random r = new Random();
             string CdCDBox1, CdCDBox2;
-            CdCDBox1 = string.Empty;
+            CdCDBox1 = "333";
             CdCDBox2 = "1";
 
-            while (CdCDBox1 == "333" && CdCDBox1 == "444" && CdCDBox1 == "555" && CdCDBox1 == "666" && CdCDBox1 == "777" && CdCDBox1 == "888" && CdCDBox1 == "999") // generate box 1
+            while (CdCDBox1 == "333" || CdCDBox1 == "444" || CdCDBox1 == "555" || CdCDBox1 == "666" || CdCDBox1 == "777" || CdCDBox1 == "888" || CdCDBox1 == "999") // generate box 1
             {
                 CdCDBox1 = r.Next(0, 10).ToString() + r.Next(0, 10).ToString() + r.Next(0, 10).ToString();
             }
