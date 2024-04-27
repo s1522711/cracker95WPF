@@ -29,7 +29,7 @@ namespace cracker95
             CdCDBox1 = string.Empty;
             CdCDBox2 = "1";
 
-            while (CdCDBox1 != "333" && CdCDBox1 != "444" && CdCDBox1 != "555" && CdCDBox1 != "666" && CdCDBox1 != "777" && CdCDBox1 != "888" && CdCDBox1 != "999") // generate box 1
+            while (CdCDBox1 == "333" && CdCDBox1 == "444" && CdCDBox1 == "555" && CdCDBox1 == "666" && CdCDBox1 == "777" && CdCDBox1 == "888" && CdCDBox1 == "999") // generate box 1
             {
                 CdCDBox1 = r.Next(0, 10).ToString() + r.Next(0, 10).ToString() + r.Next(0, 10).ToString();
             }
